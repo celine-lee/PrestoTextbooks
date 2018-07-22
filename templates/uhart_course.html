@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Presto Textbooks</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+    <header class="container">
+        <div class="row">
+            <h1 class="col-sm-4">Presto Textbooks</h1>
+            <div class="col-sm-1 pull-right">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/account/Doe">Your Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+               
+               
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <h2>University of Hartford</h2>
+                <h3>Hartford, CT</h3>
+                            
+            </div>
+            <div class="col-sm-offset-5 col-sm-2 text-center">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select a department:</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/uhart/MATH">Math</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container">
+        <div class="row">
+            <div class="row text-center">
+                <h2>{{ department }} : {{ course }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>Entry</p>
+            </div>
+        </div>
+    </section>
+               
+               
+ 
+    <footer class="container">
+        <div class="row">
+            <p class="col-sm-4">
+                &copy; 2018 Presto Textbooks
+            </p>
+            
+        </div>
+    </footer>
+                  
+  
+  
+</body>
+</html>
